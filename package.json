@@ -1,0 +1,3 @@
+npx create-react-app ai-consult-bot
+cd ai-consult-bot
+npm install redux react-redux
