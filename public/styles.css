@@ -60,6 +60,10 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.modal.show {
+    display: block;
+}
+
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
@@ -106,4 +110,17 @@ input[type="password"] {
 
 #signup-modal button:hover {
     background-color: #218838; /* 간편 가입 버튼 호버 색상 */
+}
+
+/* 채팅 메시지 스타일 */
+.msg.user {
+    text-align: right;
+    color: #007bff;
+    margin: 5px 0;
+}
+
+.msg.bot {
+    text-align: left;
+    color: #333;
+    margin: 5px 0;
 }
